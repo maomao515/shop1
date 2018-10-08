@@ -1,0 +1,34 @@
+@charset "UTF-8";
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, pre, a, em, font, img, small, strong, b, u, i, s, dl, dt, dd, ol, ul, li, fieldset, form, label {
+  padding: 0px;
+  margin: 0px; }
+
+img {
+  border: 0px; }
+
+body {
+  color: #606060;
+  font: 12px/150% Arial, Tahoma,"宋体"; }
+
+i, s {
+  display: block;
+  position: absolute;
+  background-repeat: no-repeat;
+  font-size: 1px; }
+
+.fr {
+  float: right; }
+
+.clear {
+  clear: both;
+  height: 0px;
+  overflow: hidden;
+  font-size: 0; }
+
+i, s {
+  display: block;
+  position: absolute;
+  background-repeat: no-repeat;
+  font-size: 1px; }
+
+/*# sourceMappingURL=other.css.map */

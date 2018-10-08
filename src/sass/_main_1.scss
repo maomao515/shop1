@@ -1,0 +1,265 @@
+@charset "utf-8";
+.floor {
+    margin-top: 14px;
+    font-family: "微软雅黑";
+     .floor-l {
+            width: 242px;
+           h3 {
+    color: #88A9E2;
+    position: relative;
+    height: 38px;
+    padding-left: 15px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 38px;
+   i {
+    background: #88A9E2;
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 5px;
+    height: 20px;
+    display: block;
+}
+}
+     .con {
+    background: #a1c0f6;
+    position: relative;
+    padding-top: 50px;
+         span {
+    background-position: 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 56px;
+    height: 20px;
+    padding: 10px 0 34px 8px;
+    line-height: 20px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    background: url(http://static.womai.com/zhongliang/city/index/images/floor_icon.png) no-repeat;
+    cursor: pointer;
+}
+    ul {
+    width: 200px;
+    height: 110px;
+    padding-bottom: 9px;
+    margin-left: 21px;
+    background: url(http://static.womai.com/zhongliang/city/index/images/bd.png) no-repeat bottom center;
+          li {
+    position: relative;
+    float: left;
+    width: 75px;
+    height: 36px;
+    padding-left: 25px;
+    font-size: 14px;
+    line-height: 36px;
+    overflow: hidden;
+             i {
+    position: absolute;
+    top: 7px;
+    left: 0;
+    display: block;
+    width: 22px;
+    height: 22px;
+    background-repeat: no-repeat;
+    font-size: 1px;
+}
+     a {
+    color: #5e7090;
+}
+}
+}
+        .pic {
+                position: relative;
+                .aImg {
+    height: 400px;
+    left: -242px;
+    position: absolute;
+    width: 242px;
+     img {
+    width: 242px;
+    height: 335px;
+        border: 0px;
+}
+}
+      a {
+           width: 242px;
+    height: 335px;
+    display: block;
+    overflow:hidden;
+}
+            }
+}
+        }
+      
+}
+.floor .floor-l .pic img {
+    width: 242px;
+    height: 335px;
+}
+ .floor-r {
+    width: 968px;
+    .tit {
+    height: 36px;
+    margin: 0 0 2px 30px;
+    font-size: 16px;
+    line-height: 36px;
+    color: #434343;
+      .cur {
+            border-bottom: 2px solid #a1c0f6;
+            color: #434343;
+        }
+         li {
+            height: 36px;
+            margin-right: 30px;
+            padding: 0 5px;
+            text-align: center;
+            color: #383838;
+            overflow: hidden;
+            float:left;
+        }
+    }
+     .con {
+    border-top: 1px solid #a1c0f6;
+    position: relative;
+    _top: -2px;
+    display: none;
+    width: 968px;
+    .adv {
+    position: absolute;
+    top: 0;
+    left: 242px;
+    width: 482px;
+    height: 250px;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    overflow: hidden;
+         .slider-btn {
+                    left: 0;
+                    width: 100%;
+                    margin-left: 0;
+                    position: absolute;
+                    z-index: 5;
+                    top: 50%;
+                    left: 50%;
+                    width: 800px;
+                    height: 62px;
+                    margin-top: -31px;
+                    margin-left: -395px;
+                    pointer-events: none;
+                     a {
+                        display: block;
+                        width: 28px;
+                        height: 62px;
+                        font: 400 22px/62px simsun;
+                        color: #fff;
+                        text-align: center;
+                        background: url(http://static.womai.com/zhongliang/city/index/images/btn.png) no-repeat;
+                        text-decoration: none;
+                        pointer-events: auto;
+                    }
+                    .fl {
+                        float: left;
+                    }
+                    .fr {
+                        float: right;
+                    }
+            }
+    }
+    ul {
+    overflow: auto;
+        li {
+            width: 241px;
+            height: 250px;
+            border-bottom: 1px solid #ededed;
+            border-right: 1px solid #ededed;
+            overflow: hidden;
+            float:left;
+             
+        }
+                .first {
+                        margin-right: 484px;
+                    }
+}
+}
+}
+.floor .floor-r dt {
+    width: 240px;
+    height: 190px;
+    text-align: center;
+     a {
+    display: block;
+     }
+     img{
+         transition: all 0.6s;
+     }
+     a:hover img{
+         left:10px;
+     }
+}
+.floor .floor-r .con li dl dd.name {
+    bottom: 26px;
+}
+.floor .floor-r .name {
+    height: 24px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #383838;
+}
+.floor .floor-r .name, .floor .floor-r .price {
+    width: 200px;
+    margin-left: 20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    /* white-space: nowrap; */
+}
+.floor .floor-r .price {
+    height: 26px;
+    font-size: 14px;
+    line-height: 26px;
+    color: #dd0800;
+     span span {
+    font-size: 20px;
+    }
+}
+.floor .floor-r .con dt img {
+    position: relative;
+    left: 0;
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    margin-top: 6px;
+}
+.floor .floor-r .adv img {
+    width: 483px;
+    height: 250px;
+    border-bottom: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+}
+.floor .floor-r .adv ul li, .floor .floor-even .floor-r .con ul li.p-three .adv li {
+    float: left;
+    width: 483px;
+    height: 250px;
+    overflow: hidden;
+}
+.floor .floor-r .con li {
+    width: 241px;
+    height: 250px;
+    border-bottom: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+    overflow: hidden;
+}
+.slider-num {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    z-index: 2;
+    height: 21px;
+    text-align: center;
+}
+.slider-num li.hover, .floor .floor-r .adv .slider-num li.hover, .floor .floor-even .floor-r .con ul li.p-three .adv .slider-num li.hover {
+    background: url(../images/b_icon.png) no-repeat -21px 0;
+}

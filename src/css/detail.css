@@ -1,0 +1,1226 @@
+@charset "UTF-8";
+body {
+  color: #606060;
+  font: 12px/150% Arial, Tahoma,"宋体"; }
+
+.add_t_wrap a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: left; }
+  .add_t_wrap a img {
+    position: relative;
+    display: block;
+    left: 50%;
+    margin-left: -950px;
+    border: 0px;
+    font-size: 0; }
+
+.site_nav {
+  z-index: 1000;
+  height: 32px;
+  background-color: #f5f5f5; }
+  .site_nav .nav {
+    margin: 0 auto;
+    line-height: 32px; }
+  .site_nav .nav_l {
+    float: left;
+    zoom: 1; }
+    .site_nav .nav_l .site {
+      position: relative;
+      z-index: 100;
+      padding-left: 15px;
+      background: url(../images/index.png) no-repeat -101px 0; }
+      .site_nav .nav_l .site .welcome {
+        margin-right: 10px; }
+    .site_nav .nav_l li {
+      float: left;
+      margin-right: 20px; }
+  .site_nav .nav_r {
+    float: right; }
+
+ol, ul li {
+  list-style: none outside none; }
+
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, pre, a, em, font, img, small, strong, b, u, i, s, dl, dt, dd, ol, ul, li, fieldset, form, label {
+  padding: 0px;
+  margin: 0px; }
+
+#top_login_span li {
+  background-image: url(../images/20121219BN.png);
+  background-repeat: no-repeat;
+  background: none; }
+
+a {
+  text-decoration: none; }
+
+a:visited {
+  color: #606060; }
+
+a:link {
+  color: #606060; }
+
+.site_nav .nav_l .site .text {
+  position: relative;
+  z-index: 3;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 20px 0 14px;
+  border: 1px solid #f5f5f5;
+  cursor: pointer; }
+.site_nav .nav_l .site .arrow_down {
+  display: inline-block;
+  width: 6px;
+  height: 3px;
+  margin: 15px 0 0 5px;
+  _margin-top: 5px;
+  vertical-align: middle;
+  background: url(../images/index.png) no-repeat -92px 0;
+  overflow: hidden; }
+
+.site_nav .nav_l .t_item {
+  text-decoration: underline; }
+
+.site_nav .nav_r {
+  float: right; }
+  .site_nav .nav_r .backexchange {
+    overflow: hidden; }
+  .site_nav .nav_r .mycount {
+    position: relative;
+    z-index: 1000;
+    height: 32px;
+    padding: 0; }
+  .site_nav .nav_r .cart a:before {
+    content: '';
+    display: block;
+    float: left;
+    width: 11px;
+    height: 11px;
+    margin: 10px 3px 0 0;
+    background: url(http://static.womai.com/zhongliang/city/common/images/index.png) no-repeat -78px 0; }
+  .site_nav .nav_r li {
+    float: left;
+    padding: 0 10px 0 11px; }
+    .site_nav .nav_r li .text {
+      position: relative;
+      z-index: 103;
+      display: inline-block;
+      height: 30px;
+      line-height: 30px;
+      padding: 0 20px 0 14px;
+      cursor: pointer;
+      float: left; }
+      .site_nav .nav_r li .text i {
+        display: inline-block;
+        width: 6px;
+        height: 3px;
+        margin: 15px 0 0 5px;
+        _margin-top: 5px;
+        vertical-align: middle;
+        background: url(http://static.womai.com/zhongliang/city/common/images/index.png) no-repeat -92px 0;
+        overflow: hidden;
+        padding: 0px;
+        top: 0;
+        right: 0; }
+      .site_nav .nav_r li .text b {
+        font-weight: normal;
+        color: #3a9900; }
+  .site_nav .nav_r .line {
+    margin: 0 -10px;
+    color: #e3dde3; }
+  .site_nav .nav_r .mycount {
+    position: relative;
+    z-index: 1000;
+    height: 32px;
+    padding: 0; }
+    .site_nav .nav_r .mycount .mycount_cont {
+      display: none;
+      position: absolute;
+      width: 184px;
+      top: 30px;
+      left: 0;
+      border: 1px solid #3a9900;
+      padding: 5px;
+      background-color: #fff; }
+      .site_nav .nav_r .mycount .mycount_cont .nopay {
+        position: relative; }
+      .site_nav .nav_r .mycount .mycount_cont li {
+        float: left;
+        width: 92px;
+        padding: 0; }
+        .site_nav .nav_r .mycount .mycount_cont li a {
+          position: relative;
+          display: inline-block;
+          height: 25px;
+          padding: 0 7px;
+          line-height: 25px;
+          color: #6c6c6c; }
+    .site_nav .nav_r .mycount .width75 {
+      width: 74px !important; }
+  .site_nav .nav_r .backexchange {
+    overflow: hidden; }
+    .site_nav .nav_r .backexchange .icbcexchange {
+      background: url(http://static.womai.com/zhongliang/city/common/images/base.png) no-repeat 0 0;
+      width: 43px;
+      height: 15px;
+      margin: 8px 0 0 12px;
+      display: inline-block;
+      float: left; }
+    .site_nav .nav_r .backexchange .zhongxinexchange {
+      background: url(http://static.womai.com/zhongliang/city/common/images/base.png) no-repeat 0 -20px;
+      width: 43px;
+      height: 15px;
+      margin: 8px 0 0 12px;
+      display: inline-block; }
+
+.site_nav .nav_r .mycount:hover .mycount_cont {
+  display: block; }
+
+.site_nav .nav_r .mycount:hover .blank {
+  width: 84px;
+  height: 30px;
+  border: 1px solid #3a9900;
+  border-bottom: none;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 20; }
+
+.header {
+  position: static;
+  z-index: 100;
+  top: -130px;
+  width: 100%;
+  font-family: "微软雅黑";
+  margin: 35px auto 30px; }
+  .header:after {
+    content: " ";
+    display: table;
+    clear: both; }
+  .header .width {
+    width: 1210px;
+    margin: 0 auto; }
+    .header .width .logo {
+      width: 220px;
+      height: 86px;
+      float: left; }
+    .header .width .fl {
+      float: left; }
+    .header .width .logo_adv {
+      float: left; }
+    .header .width .search_wrap {
+      width: 625px;
+      margin: 12px 0 0 48px;
+      float: left; }
+      .header .width .search_wrap .search_c {
+        float: left;
+        width: 584px;
+        height: 38px;
+        border: 2px solid #c30000; }
+        .header .width .search_wrap .search_c .btn {
+          width: 100px;
+          height: 38px;
+          _height: 40px; }
+        .header .width .search_wrap .search_c .fr {
+          float: right; }
+        .header .width .search_wrap .search_c .form {
+          position: relative;
+          float: left;
+          display: block; }
+          .header .width .search_wrap .search_c .form input {
+            width: 450px;
+            height: 36px;
+            padding-left: 32px;
+            font: 14px/36px "微软雅黑";
+            color: #bbb;
+            border: none;
+            outline: none;
+            overflow: hidden; }
+            .header .width .search_wrap .search_c .form input:before {
+              content: '';
+              position: absolute;
+              top: 11px;
+              left: 10px;
+              display: block;
+              width: 16px;
+              height: 16px;
+              background: url(http://static.womai.com/zhongliang/city/common/images/index.png) no-repeat -69px -24px; }
+          .header .width .search_wrap .search_c .form .ac_results {
+            position: absolute;
+            z-index: 10000;
+            display: none;
+            padding: 0 10px 5px 5px;
+            margin: 0;
+            list-style: none;
+            border: 1px solid #ccc;
+            background-color: white; }
+          .header .width .search_wrap .search_c .form:before {
+            content: '';
+            position: absolute;
+            top: 11px;
+            left: 10px;
+            display: block;
+            width: 16px;
+            height: 16px;
+            background: url(http://static.womai.com/zhongliang/city/common/images/index.png) no-repeat -69px -24px; }
+        .header .width .search_wrap .search_c .bttn {
+          width: 100px;
+          height: 38px; }
+          .header .width .search_wrap .search_c .bttn .bon {
+            width: 100px;
+            height: 38px;
+            font: 18px "微软雅黑";
+            color: #fff;
+            background-color: #c30000;
+            border: none;
+            cursor: pointer; }
+      .header .width .search_wrap .search_r {
+        margin-top: 2px;
+        float: right;
+        line-height: 16px;
+        color: #999;
+        font-size: 14px !important;
+        font-family: "微软雅黑"; }
+      .header .width .search_wrap .search_b a {
+        margin-right: 18px;
+        color: #757575; }
+        .header .width .search_wrap .search_b a:hover {
+          color: green;
+          text-decoration: underline; }
+    .header .width .app {
+      float: right;
+      width: 160px;
+      height: 80px; }
+
+img {
+  border: 0px; }
+
+.header .search_wrap .search_b {
+  height: 18px;
+  padding-top: 8px;
+  clear: both;
+  overflow: hidden; }
+
+.header .search_wrap .search_c .bttn {
+  width: 100px;
+  height: 38px;
+  float: left; }
+
+.header .search_c .bttn .bon {
+  width: 100px;
+  height: 38px;
+  font: 18px "微软雅黑";
+  color: #fff;
+  background-color: #c30000;
+  border: none;
+  cursor: pointer; }
+
+a:hover {
+  color: green;
+  text-decoration: underline; }
+
+.main_nav_wrap {
+  position: relative;
+  height: 46px;
+  border-bottom: 2px solid #318700;
+  z-index: 999; }
+  .main_nav_wrap .main_nav {
+    position: relative;
+    margin: 0 auto; }
+    .main_nav_wrap .main_nav .all_kinds, .main_nav_wrap .main_nav .main_nav_wrap .nav, .main_nav_wrap .main_nav .main_nav_wrap .recharge {
+      float: left; }
+    .main_nav_wrap .main_nav .all_kinds {
+      position: absolute;
+      top: 2px;
+      left: 0; }
+      .main_nav_wrap .main_nav .all_kinds .head {
+        width: 210px;
+        height: 46px;
+        line-height: 46px;
+        color: #fff;
+        font-size: 16px;
+        text-align: center;
+        background-color: #2d8800; }
+      .main_nav_wrap .main_nav .all_kinds .cont {
+        position: relative;
+        width: 210px;
+        height: 410px;
+        padding: 12px 0 28px 0;
+        background-color: #3ea600; }
+        .main_nav_wrap .main_nav .all_kinds .cont .kinds {
+          float: left;
+          height: 39px;
+          width: 100%; }
+          .main_nav_wrap .main_nav .all_kinds .cont .kinds .title {
+            width: 172px;
+            height: 32px;
+            padding: 0 19px 0 19px;
+            line-height: 32px;
+            font-size: 14px;
+            overflow: hidden; }
+            .main_nav_wrap .main_nav .all_kinds .cont .kinds .title b {
+              display: block;
+              float: left;
+              width: 18px;
+              height: 18px;
+              margin: 6px 16px 0 0;
+              background-position: 0 0; }
+            .main_nav_wrap .main_nav .all_kinds .cont .kinds .title a {
+              font-weight: normal;
+              color: #fff; }
+          .main_nav_wrap .main_nav .all_kinds .cont .kinds .sub_kinds {
+            position: absolute;
+            top: 0px;
+            left: 209px;
+            z-index: 30;
+            display: none;
+            width: 757px;
+            height: 419px;
+            padding: 30px 15px 0 15px;
+            border-right: 1px solid #3a9900;
+            border-bottom: 1px solid #3a9900;
+            background-color: #fff;
+            overflow-y: auto; }
+            .main_nav_wrap .main_nav .all_kinds .cont .kinds .sub_kinds .kinds-box {
+              position: relative;
+              width: 757px;
+              height: 419px;
+              overflow: hidden; }
+              .main_nav_wrap .main_nav .all_kinds .cont .kinds .sub_kinds .kinds-box .c_kinds {
+                position: absolute;
+                left: 0;
+                top: 0; }
+                .main_nav_wrap .main_nav .all_kinds .cont .kinds .sub_kinds .kinds-box .c_kinds .sub_head {
+                  position: relative;
+                  float: left;
+                  width: 86px;
+                  height: 22px;
+                  font: bold 13px/22px "微软雅黑";
+                  color: #333;
+                  padding: 6px 20px 6px 0;
+                  text-align: right; }
+                .main_nav_wrap .main_nav .all_kinds .cont .kinds .sub_kinds .kinds-box .c_kinds .sub_cont {
+                  float: left;
+                  width: 580px;
+                  line-height: 30px;
+                  overflow: hidden;
+                  zoom: 1;
+                  padding-top: 6px;
+                  padding-bottom: 9px;
+                  margin-bottom: 3px;
+                  border-bottom: 1px solid #eaeaea; }
+                  .main_nav_wrap .main_nav .all_kinds .cont .kinds .sub_kinds .kinds-box .c_kinds .sub_cont .sub_kind {
+                    float: left;
+                    /* width: 100px; */
+                    height: 16px;
+                    margin: 5px 0;
+                    line-height: 16px;
+                    border-left: 1px solid #dedede; }
+                    .main_nav_wrap .main_nav .all_kinds .cont .kinds .sub_kinds .kinds-box .c_kinds .sub_cont .sub_kind a {
+                      display: inline-block;
+                      color: #757575;
+                      padding: 0 8px; }
+    .main_nav_wrap .main_nav .nav {
+      width: 760px;
+      height: 46px;
+      padding-left: 219px;
+      float: left; }
+      .main_nav_wrap .main_nav .nav li {
+        position: relative;
+        float: left;
+        white-space: nowrap; }
+        .main_nav_wrap .main_nav .nav li a {
+          display: inline-block;
+          height: 38px;
+          margin: 5px 0 3px 0px;
+          padding: 0 11px;
+          font: 16px/38px "Microsoft YaHei";
+          text-align: center;
+          color: #383838; }
+          .main_nav_wrap .main_nav .nav li a:hover {
+            color: green;
+            text-decoration: underline; }
+        .main_nav_wrap .main_nav .nav li .nav_cont {
+          display: none;
+          position: absolute;
+          top: 45px;
+          left: 0px;
+          border: 1px solid #e8e8e8;
+          background-color: #fff;
+          z-index: 999; }
+    .main_nav_wrap .main_nav .min_cart {
+      float: right;
+      position: relative;
+      right: 0;
+      z-index: 100; }
+      .main_nav_wrap .main_nav .min_cart .btn {
+        display: inline;
+        position: absolute;
+        top: -3px;
+        right: 0px;
+        width: 180px;
+        height: 18px;
+        padding: 9px 10px 16px;
+        margin: 5px 1px 1px;
+        line-height: 22px;
+        text-align: center;
+        color: #098A00;
+        cursor: pointer; }
+        .main_nav_wrap .main_nav .min_cart .btn .text {
+          /* float: left; */
+          display: inline-block;
+          height: 20px;
+          line-height: 20px;
+          vertical-align: middle;
+          margin-left: 15px;
+          font-family: "微软雅黑";
+          font-size: 14px;
+          color: #383838; }
+      .main_nav_wrap .main_nav .min_cart .cart_cont {
+        display: none;
+        position: absolute;
+        top: 48px;
+        right: 0px;
+        z-index: 104;
+        width: 343px;
+        padding: 15px 0px 8px 15px;
+        background-color: #fff;
+        border: 1px solid #3a9901;
+        overflow: hidden; }
+        .main_nav_wrap .main_nav .min_cart .cart_cont .last-viewed {
+          height: 15px;
+          line-height: 15px;
+          font-weight: normal; }
+        .main_nav_wrap .main_nav .min_cart .cart_cont .account {
+          height: 32px;
+          line-height: 32px; }
+          .main_nav_wrap .main_nav .min_cart .cart_cont .account span {
+            display: inline-block; }
+          .main_nav_wrap .main_nav .min_cart .cart_cont .account .a-btn {
+            float: right;
+            width: 80px;
+            margin-right: 20px;
+            text-align: center;
+            background: #de0800;
+            color: #fff;
+            font-size: 14px;
+            font-family: "微软雅黑";
+            cursor: pointer; }
+
+a:hover {
+  color: green;
+  text-decoration: underline; }
+
+.main_nav_wrap .main_nav .min_cart .btn .cart-icon {
+  display: inline-block;
+  width: 27px;
+  height: 20px;
+  vertical-align: middle;
+  background: url(http://static.womai.com/zhongliang/city/common/images/index.png) no-repeat -47px 0; }
+  .main_nav_wrap .main_nav .min_cart .btn .cart-icon i {
+    position: absolute;
+    left: 50px;
+    _left: 10px;
+    top: -8px;
+    _top: -18px;
+    width: 25px;
+    height: 20px;
+    font: 12px/16px "微软雅黑";
+    background: url(http://static.womai.com/zhongliang/city/common/images/index.png) no-repeat -10px -40px;
+    text-align: center;
+    font-style: normal;
+    color: #fff;
+    overflow: hidden;
+    display: block; }
+
+.main_nav_wrap .main_nav .min_cart .btn .arrow {
+  float: right;
+  width: 10px;
+  height: 6px;
+  margin: 10px 18px 0 5px;
+  _margin-top: -15px;
+  background: url(http://static.womai.com/zhongliang/city/common/images/index.png) no-repeat 0 -40px;
+  overflow: hidden; }
+
+.madden-today .madden-pro li .imgChange:hover img {
+  transform: scale(1.2, 1.2);
+  -moz-transform: scale(1.2, 1.2);
+  -webkit-transform: scale(1.2, 1.2);
+  -o-transform: scale(1.2, 1.2); }
+
+.madden-today .madden-pro li .imgChange img {
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s; }
+
+body {
+  color: #606060;
+  font: 12px/150% Arial, Tahoma,"宋体"; }
+
+.footer {
+  margin-top: 45px;
+  padding-top: 45px;
+  border-top: 2px solid #e7e7e7;
+  background: #f7f7f7; }
+  .footer .mode_wrap {
+    float: left;
+    margin-left: 70px;
+    _margin-left: 0px;
+    overflow: hidden; }
+  .footer .ervma {
+    float: left;
+    width: 284px; }
+  .footer .mode_wrap .mode {
+    position: relative;
+    float: left;
+    width: 144px;
+    margin-right: 70px; }
+    .footer .mode_wrap .mode h3 {
+      height: 26px;
+      margin-bottom: 5px;
+      line-height: 26px;
+      font-size: 16px;
+      color: #6f6f6f; }
+    .footer .mode_wrap .mode .cont {
+      height: 130px;
+      padding: 0;
+      margin: 0; }
+
+.width {
+  width: 1210px;
+  margin: 0 auto; }
+
+.clearfix:after {
+  content: '\0020';
+  display: block;
+  height: 0;
+  clear: both;
+  font-size: 0;
+  visibility: hidden; }
+
+ol, ul li {
+  list-style: none outside none; }
+
+.footer .mode_wrap .mode .cont .cont_list {
+  height: 24px;
+  line-height: 24px;
+  color: #9c9c9c;
+  overflow: hidden; }
+  .footer .mode_wrap .mode .cont .cont_list a {
+    color: #989898; }
+
+.footer .ervma dl {
+  position: relative;
+  margin-right: 45px;
+  _margin-right: 10px;
+  width: 86px;
+  height: 122px;
+  float: left; }
+.footer .ervma dt {
+  position: absolute;
+  top: 0;
+  left: -22px;
+  width: 130px;
+  height: 18px;
+  margin-bottom: 18px;
+  font-size: 16px;
+  color: #c60001;
+  text-align: center;
+  overflow: hidden; }
+
+.footer .mode_wrap .mode:after {
+  content: "";
+  position: absolute;
+  top: 12px;
+  right: 0;
+  display: block;
+  width: 1px;
+  height: 78px;
+  background: #e9e9e9; }
+
+.footer .ervma dd {
+  position: relative;
+  top: 36px; }
+.footer .ervma img {
+  width: 86px;
+  height: 86px; }
+
+.footer .about_wrap {
+  padding: 25px 0 30px 0;
+  margin-top: 45px;
+  border-top: 2px solid #3ea600;
+  background: #fff; }
+  .footer .about_wrap .about {
+    margin: 0 auto; }
+
+.clear {
+  clear: both;
+  height: 0px;
+  overflow: hidden;
+  font-size: 0; }
+
+.footer .about_wrap .links, .footer .about_wrap .copyright div {
+  height: 22px;
+  line-height: 22px;
+  color: #989898;
+  overflow: hidden; }
+
+.footer .about_wrap .links a {
+  font-size: 14px;
+  color: #606060; }
+
+.footer .about_wrap .links {
+  text-align: center; }
+
+.footer .about_wrap .about span {
+  padding: 18px; }
+
+.footer .footer-2016 {
+  width: 790px;
+  margin: 28px auto 0; }
+  .footer .footer-2016 .pic img {
+    width: 200px;
+    height: 50px;
+    margin-right: 20px; }
+
+.f2 {
+  float: left; }
+
+.footer .about_wrap .copyright div {
+  height: 22px;
+  line-height: 22px;
+  color: #989898;
+  overflow: hidden; }
+
+.beian i {
+  float: left;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background: url(http://static.womai.com/zhongliang/city/common/images/bottomicon.png) -114px 0px no-repeat;
+  display: block;
+  font-size: 1px; }
+.beian p {
+  float: left;
+  margin: 0px 0px 0px 5px;
+  color: #989898; }
+
+.footer .Integrity {
+  text-align: center;
+  height: 0; }
+  .footer .Integrity a {
+    display: inline-block; }
+  .footer .Integrity .cert {
+    width: 112px;
+    height: 41px;
+    background: url(http://static.womai.com/zhongliang/city/common/images/bottomicon.png) 0px 0px no-repeat; }
+
+a {
+  text-decoration: none; }
+
+i, s {
+  display: block;
+  position: absolute;
+  background-repeat: no-repeat;
+  font-size: 1px; }
+
+body {
+  color: #606060;
+  font: 12px/150% Arial, Tahoma,"宋体"; }
+
+.add_t_wrap {
+  display: none; }
+
+.crumbs {
+  height: 34px;
+  line-height: 34px; }
+  .crumbs a {
+    display: inline-block;
+    padding: 0 5px; }
+
+.w {
+  width: 1210px;
+  margin: 0 auto; }
+
+.main_nav_wrap .main_nav .all_kinds .cont {
+  display: none; }
+
+.wrap {
+  color: #666; }
+
+.w {
+  width: 1210px;
+  margin: 0 auto; }
+
+.details-left {
+  width: 970px; }
+  .details-left .img-magnifier {
+    width: 400px;
+    /* height: 590px; */ }
+    .details-left .img-magnifier .detail_preview {
+      width: 402px; }
+      .details-left .img-magnifier .detail_preview #preview {
+        height: 400px;
+        width: 400px;
+        border: 1px solid #dcdddd;
+        overflow: hidden; }
+        .details-left .img-magnifier .detail_preview #preview .jqzoom {
+          float: left;
+          border: none;
+          position: relative;
+          padding: 0px;
+          cursor: move;
+          margin: 0px;
+          display: block; }
+          .details-left .img-magnifier .detail_preview #preview .jqzoom img {
+            width: 400px;
+            height: 400px; }
+      .details-left .img-magnifier .detail_preview .spec-scroll {
+        clear: both;
+        width: 402px;
+        margin-top: 5px;
+        overflow: hidden; }
+        .details-left .img-magnifier .detail_preview .spec-scroll .items {
+          width: 400px;
+          max-height: 160px;
+          overflow: hidden; }
+          .details-left .img-magnifier .detail_preview .spec-scroll .items ul {
+            min-height: 80px;
+            width: 425px; }
+            .details-left .img-magnifier .detail_preview .spec-scroll .items ul li {
+              float: left;
+              width: 60px;
+              height: 60px;
+              margin: 6px 25px 2px 0; }
+              .details-left .img-magnifier .detail_preview .spec-scroll .items ul li img {
+                width: 58px;
+                height: 58px;
+                border: 1px solid #ededed;
+                cursor: pointer; }
+      .details-left .img-magnifier .detail_preview .share {
+        position: relative;
+        margin-top: 10px; }
+        .details-left .img-magnifier .detail_preview .share li {
+          position: relative;
+          float: left;
+          padding-right: 10px;
+          vertical-align: middle;
+          cursor: pointer; }
+          .details-left .img-magnifier .detail_preview .share li span {
+            position: relative;
+            display: inline-block;
+            padding-left: 16px; }
+          .details-left .img-magnifier .detail_preview .share li .keep {
+            background-position: -76px -38px; }
+        .details-left .img-magnifier .detail_preview .share i {
+          position: absolute;
+          left: 0;
+          width: 13px;
+          top: 3px;
+          height: 12px;
+          background: url(http://static.womai.com/zhongliang/city/green2016/images/details.png) no-repeat;
+          overflow: hidden;
+          margin-right: 5px; }
+        .details-left .img-magnifier .detail_preview .share .fx {
+          background-position: -92px -58px; }
+
+.fl {
+  float: left; }
+
+.details-left .p-infor {
+  width: 540px; }
+  .details-left .p-infor .p-zy {
+    float: left;
+    padding: 0px 3px;
+    margin: 2px 4px 2px 0px;
+    color: #fff;
+    background-color: #c20312;
+    border-radius: 2px; }
+  .details-left .p-infor .p-title {
+    width: 506px;
+    height: auto;
+    margin: 5px 0;
+    font: bold 16px/22px "微软雅黑";
+    color: #666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+  .details-left .p-infor .p-infor {
+    height: 40px;
+    margin-bottom: 10px;
+    line-height: 20px;
+    overflow: hidden;
+    font-family: "微软雅黑"; }
+    .details-left .p-infor .p-infor span {
+      color: #c40000; }
+
+.details-left .p-infor .price-wrap {
+  height: 36px;
+  padding-left: 16px;
+  padding-top: 20px;
+  background: #f5f5f5;
+  overflow: hidden; }
+  .details-left .p-infor .price-wrap .price-infor {
+    height: 26px;
+    overflow: hidden; }
+    .details-left .p-infor .price-wrap .price-infor .time {
+      padding-right: 17px;
+      font-family: "微软雅黑"; }
+    .details-left .p-infor .price-wrap .price-infor .price {
+      display: inline-block;
+      height: 24px;
+      font-weight: bold;
+      line-height: 24px;
+      font-size: 26px;
+      font-family: "微软雅黑";
+      color: #c40000; }
+      .details-left .p-infor .price-wrap .price-infor .price em {
+        font-style: normal;
+        font-size: 15px;
+        font-family: "微软雅黑"; }
+    .details-left .p-infor .price-wrap .price-infor .group {
+      display: inline-block;
+      height: 18px;
+      margin: 6px 10px 0px 10px;
+      padding: 0 5px;
+      font-family: "微软雅黑";
+      line-height: 18px;
+      background: #c40000;
+      color: #fff; }
+
+.details-left .p-infor .promotions {
+  position: relative;
+  padding: 13px 0 10px 16px;
+  background: #f5f5f5;
+  display: none; }
+  .details-left .p-infor .promotions .pro_m_line {
+    margin-top: 6px;
+    width: 500px;
+    padding-bottom: 0px;
+    padding-left: 0px; }
+    .details-left .p-infor .promotions .pro_m_line dt {
+      height: 20px;
+      line-height: 21px;
+      padding: 0 5px;
+      text-align: center;
+      color: #fff;
+      background: #c40000 none repeat scroll 0 0; }
+    .details-left .p-infor .promotions .pro_m_line dd.intro {
+      margin: 0 15px 0 5px; }
+      .details-left .p-infor .promotions .pro_m_line dd.intro .title {
+        float: left; }
+      .details-left .p-infor .promotions .pro_m_line dd.intro span {
+        line-height: 20px; }
+        .details-left .p-infor .promotions .pro_m_line dd.intro span span {
+          height: 18px; }
+      .details-left .p-infor .promotions .pro_m_line dd.intro span.borderspan {
+        float: left;
+        height: 19px;
+        margin-left: 5px;
+        line-height: 19px;
+        border: 1px solid #ea6515; }
+    .details-left .p-infor .promotions .pro_m_line dd.man_detail {
+      position: relative;
+      margin-top: 2px;
+      margin-top: 1px\9;
+      padding-left: 10px; }
+      .details-left .p-infor .promotions .pro_m_line dd.man_detail .png {
+        display: block;
+        position: absolute;
+        top: 4px;
+        left: 0;
+        width: 11px;
+        height: 11px;
+        background: url(http://static.womai.com/zhongliang/city/green2016/images/detail/newDetail_btn.png) no-repeat -122px 0; }
+      .details-left .p-infor .promotions .pro_m_line dd.man_detail a {
+        color: #c40000;
+        cursor: pointer;
+        margin-left: 6px; }
+    .details-left .p-infor .promotions .pro_m_line dd.man_detail_gicon {
+      position: relative;
+      padding-left: 10px; }
+      .details-left .p-infor .promotions .pro_m_line dd.man_detail_gicon .manpng {
+        display: block;
+        position: absolute;
+        top: 4px;
+        left: 0;
+        width: 11px;
+        height: 11px;
+        background: url(http://static.womai.com/zhongliang/city/green2016/images/detail/newDetail_btn.png) no-repeat -150px 0; }
+      .details-left .p-infor .promotions .pro_m_line dd.man_detail_gicon a {
+        color: #c40000;
+        cursor: pointer;
+        margin-left: 6px; }
+    .details-left .p-infor .promotions .pro_m_line dd {
+      margin-top: 3px; }
+
+.pro_m_line dt, .pro_m_line dd {
+  float: left; }
+
+.pro_m_line dd a {
+  text-decoration: underline;
+  color: #c40000; }
+
+.details-left .p-infor .promotions {
+  position: relative;
+  padding: 13px 0 10px 16px;
+  background: #f5f5f5;
+  display: block; }
+  .details-left .p-infor .promotions .pro_m_line {
+    margin-top: 6px;
+    width: 500px;
+    padding-bottom: 0px;
+    padding-left: 0px; }
+    .details-left .p-infor .promotions .pro_m_line dt {
+      height: 20px;
+      line-height: 21px;
+      padding: 0 5px;
+      text-align: center;
+      color: #fff;
+      background: #c40000 none repeat scroll 0 0; }
+    .details-left .p-infor .promotions .pro_m_line dd.intro {
+      margin: 0 15px 0 5px; }
+      .details-left .p-infor .promotions .pro_m_line dd.intro .title {
+        float: left; }
+      .details-left .p-infor .promotions .pro_m_line dd.intro span {
+        line-height: 20px; }
+        .details-left .p-infor .promotions .pro_m_line dd.intro span span {
+          height: 18px; }
+      .details-left .p-infor .promotions .pro_m_line dd.intro span.borderspan {
+        float: left;
+        height: 19px;
+        margin-left: 5px;
+        line-height: 19px;
+        border: 1px solid #ea6515; }
+    .details-left .p-infor .promotions .pro_m_line dd.man_detail {
+      position: relative;
+      margin-top: 2px;
+      margin-top: 1px\9;
+      padding-left: 10px; }
+    .details-left .p-infor .promotions .pro_m_line dd.man_detail_gicon {
+      position: relative;
+      padding-left: 10px; }
+    .details-left .p-infor .promotions .pro_m_line dd {
+      margin-top: 3px; }
+
+.details-left .p-infor .address {
+  line-height: 34px;
+  padding-left: 16px; }
+  .details-left .p-infor .address dt {
+    width: 42px;
+    float: left;
+    height: 34px; }
+  .details-left .p-infor .address dd {
+    float: left;
+    height: 34px; }
+  .details-left .p-infor .address .addr_select {
+    position: relative;
+    z-index: 99; }
+    .details-left .p-infor .address .addr_select .text {
+      position: relative;
+      z-index: 101;
+      width: auto;
+      _float: left;
+      height: 24px;
+      margin-top: 6px;
+      margin-right: 10px;
+      padding: 0 17px 0 5px;
+      line-height: 24px;
+      background: #fff;
+      border: 1px solid #cacaca; }
+    .details-left .p-infor .address .addr_select .region-text {
+      _float: left;
+      height: 22px;
+      overflow: hidden; }
+    .details-left .p-infor .address .addr_select s {
+      position: absolute;
+      top: 10px;
+      right: 3px;
+      display: block;
+      width: 8px;
+      height: 5px;
+      background: url(http://static.womai.com/zhongliang/city/green2016/images/detail/newDetail_btn.png) no-repeat -70px -307px; }
+
+.choose-box, .details-left .p-infor .merge {
+  padding-left: 16px;
+  margin-top: 5px; }
+
+.pro_m_line#height_over {
+  height: auto;
+  overflow: hidden;
+  padding: 0;
+  padding: 5px 0px 0px; }
+
+.pb10 {
+  padding-bottom: 5px;
+  padding-top: 8px; }
+
+.pro_m_line {
+  width: 500px;
+  padding-bottom: 0px;
+  padding-left: 0px; }
+  .pro_m_line #padding_t {
+    padding-top: 13px;
+    width: 64px;
+    overflow: hidden; }
+  .pro_m_line .pro_m_tit {
+    width: 70px;
+    float: left;
+    color: #808080; }
+  .pro_m_line .one_And_More {
+    height: auto;
+    overflow: hidden;
+    float: left;
+    width: 435px; }
+    .pro_m_line .one_And_More .matching_Products {
+      float: left;
+      width: 100px;
+      margin: 8px 8px 0px 0px;
+      position: relative;
+      white-space: nowrap; }
+      .pro_m_line .one_And_More .matching_Products a.m_Pro_border {
+        width: 100px;
+        height: 28px;
+        margin-right: 10px;
+        padding: 0;
+        text-align: center;
+        line-height: 28px;
+        border: 1px solid #dcdcdc;
+        color: #000;
+        cursor: pointer;
+        display: block; }
+
+em {
+  font-style: normal; }
+
+.pro_m_line .one_And_More .matching_Products a.match_Pro_Active {
+  height: 26px;
+  padding: 0 3px 0 0;
+  text-align: center;
+  line-height: 24px;
+  border: none;
+  color: #000;
+  border: 2px solid #c40000;
+  display: block; }
+
+.pro_m_line .one_And_More .matching_Products b {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  bottom: 2px;
+  right: 2px;
+  background: url(http://static.womai.com/zhongliang/city/green2016/images/detail/biankuang.jpg) no-repeat -50px -15px; }
+
+.details-left .p-infor .merge {
+  border: none;
+  margin-top: 0;
+  padding-top: 0;
+  padding-left: 16px; }
+  .details-left .p-infor .merge .choose {
+    overflow: hidden; }
+    .details-left .p-infor .merge .choose dt {
+      float: left;
+      margin: 8px 0;
+      line-height: 30px; }
+    .details-left .p-infor .merge .choose dd {
+      float: left;
+      margin: 8px 0;
+      line-height: 30px; }
+      .details-left .p-infor .merge .choose dd .choose-amount {
+        display: inline-block;
+        width: 73px;
+        height: 28px;
+        margin-right: 8px;
+        border: 1px solid #dcdcdc;
+        vertical-align: middle;
+        overflow: hidden; }
+        .details-left .p-infor .merge .choose dd .choose-amount span {
+          width: 13px;
+          height: 28px;
+          line-height: 28px;
+          text-align: center;
+          cursor: pointer;
+          overflow: hidden; }
+        .details-left .p-infor .merge .choose dd .choose-amount .proinput {
+          width: 45px;
+          height: 28px;
+          padding: 0;
+          line-height: 28px;
+          text-align: center;
+          border: none;
+          border-left: 1px solid #dcdcdc;
+          border-right: 1px solid #dcdcdc; }
+        .details-left .p-infor .merge .choose dd .choose-amount span {
+          width: 13px;
+          height: 28px;
+          line-height: 28px;
+          text-align: center;
+          cursor: pointer;
+          overflow: hidden; }
+  .details-left .p-infor .merge .btn-box {
+    position: relative;
+    padding-top: 15px;
+    margin-left: 16px; }
+    .details-left .p-infor .merge .btn-box .b-red {
+      background: #c40000;
+      margin-left: -16px; }
+      .details-left .p-infor .merge .btn-box .b-red b {
+        background-position: 0 0; }
+    .details-left .p-infor .merge .btn-box .buyBtn {
+      width: 194px;
+      height: 24px;
+      color: #fff;
+      font: 16px/24px "微软雅黑";
+      text-align: center;
+      padding-top: 11px;
+      padding-bottom: 11px; }
+      .details-left .p-infor .merge .btn-box .buyBtn b {
+        display: inline-block;
+        width: 20px;
+        height: 15px;
+        margin-right: 6px;
+        background: url(http://static.womai.com/zhongliang/city/green2016/images/details.png) no-repeat;
+        vertical-align: middle; }
+    .details-left .p-infor .merge .btn-box li {
+      position: relative;
+      float: left;
+      margin-right: 20px;
+      cursor: pointer; }
+    .details-left .p-infor .merge .btn-box .coupon-phone {
+      text-align: center;
+      font: 16px/24px "微软雅黑";
+      width: 170px;
+      height: 24px;
+      padding: 10px 8px;
+      border: 1px solid #c40000;
+      overflow: hidden; }
+      .details-left .p-infor .merge .btn-box .coupon-phone b {
+        background: url(http://static.womai.com/zhongliang/city/green2016/images/detail/mqr.png);
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-right: 6px;
+        vertical-align: middle; }
+
+.details-left .p-infor .btn-box {
+  position: relative;
+  padding-top: 15px;
+  margin-left: 16px; }
+  .details-left .p-infor .btn-box dl {
+    margin-top: 20px;
+    overflow: hidden; }
+    .details-left .p-infor .btn-box dl dt {
+      width: 42px;
+      float: left; }
+    .details-left .p-infor .btn-box dl dd {
+      float: left; }
+      .details-left .p-infor .btn-box dl dd p {
+        line-height: 20px; }
+
+/*# sourceMappingURL=detail.css.map */

@@ -1,0 +1,104 @@
+@charset "utf-8";
+.cont_w {
+    position: relative;
+    height: 0;
+       .cont_r {
+            position: absolute;
+            top: -455px;
+            right: 0;
+            width: 200px;
+            height: 450px;
+            margin-top: 5px;
+            background: #fff;
+                .public {
+                    position: relative;
+                    border: 1px solid #ddd;
+                    border-top: 1px solid #e8e8e8;
+                    overflow: hidden;
+                       .title {
+                            position: absolute;
+                            width: 202px;
+                            overflow: hidden;
+                            li.cur {
+                                width: 67px;
+                                padding: 0;
+                                color: #0D8700;
+                                border-bottom: 2px solid #2d8800;
+                                background-color: #fff;
+                                 a {
+                                    color: #0D8700;
+                                }
+                            }
+                           li {
+                                float: left;
+                                width: 65px;
+                                height: 29px;
+                                padding: 0 1px;
+                                line-height: 29px;
+                                color: #3c3c3c;
+                                text-align: center;
+                                border-bottom: 2px solid #fff;
+                                background-color: #F7F7F7;
+                                cursor: pointer;
+                                 a {
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                        .cont_wrap {
+                                padding: 35px 16px 6px;
+                                height: 75px;
+                               .cont {
+                                    display: none;
+                                    padding: 7px 0;
+                                    overflow: hidden;
+                                    zoom: 1;
+                                   .infor {
+                                        height: 21px;
+                                        line-height: 21px;
+                                        overflow: hidden;
+                                     .dot {
+                                            display: inline-block;
+                                            width: 2px;
+                                            height: 2px;
+                                            margin: 11px 8px 0 0;
+                                            background-color: #4d4d4d;
+                                            overflow: hidden;
+                                            vertical-align: bottom;
+                                            float:left;
+                                        }
+                                    }
+                                }
+                            }
+                            .min_lead{
+                                 .lead_btn_wrap {
+                                        width: 201px;
+                                        border-top: 1px solid #ddd;
+                                        overflow: hidden;
+                                         .lead_btn {
+                                            float: left;
+                                            width: 66px;
+                                            height: 60px;
+                                            border-bottom: 1px dotted #ddd;
+                                            border-right: 1px dotted #ddd;
+                                            overflow: hidden;
+                                            text-align: center;
+                                           img {
+                                                height: 100%;
+                                            }
+                                        }
+
+                                    }
+                            }
+                             .add_b {
+                                width: 200px;
+                                height: 148px;
+                                margin: 0;
+                            }
+                }
+        }
+}
+.width {
+    width: 1210px;
+    margin: 0 auto;
+}

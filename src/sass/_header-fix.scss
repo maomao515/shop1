@@ -1,0 +1,46 @@
+@charset "utf-8";
+.total-container {
+    position: fixed;
+    height: 80px;
+    margin: 0 auto;
+    padding-bottom: 12px;
+    background: url(http://static.womai.com/zhongliang/city/index/images/hbg.png) repeat-x bottom;
+}
+.zTop {
+    position: fixed;
+    top: 0;
+    height: 80px;
+    margin-bottom: 0;
+}
+.header {
+    position: static;
+    z-index: 100;
+    top: -130px;
+    width: 100%;
+    font-family: "微软雅黑";
+    margin: 35px auto 30px;
+}
+.header .search_wrap .search_c .form input {
+    width: 450px;
+    _width: 447px;
+    height: 36px;
+    padding-left: 32px;
+    font: 14px/36px "微软雅黑";
+    color: #bbb;
+    border: none;
+}
+.header .search_wrap .search_c .btn {
+    width: 100px;
+    height: 38px;
+    _height: 40px;
+}
+.header .search_wrap .search_c .btn button {
+    width: 100px;
+    height: 38px;
+    _height: 44px;
+    font: 18px "微软雅黑";
+    color: #fff;
+    background-color: #c30000;
+    border: none;
+    cursor: pointer;
+}

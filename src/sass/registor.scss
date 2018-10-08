@@ -1,0 +1,337 @@
+@charset "utf-8";
+.clear {
+    clear: both;
+    height: 0px;
+    overflow: hidden;
+    font-size: 0;
+}
+a {
+    color: #606060;
+}
+a {
+    text-decoration: none;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+input {
+    display: block;
+}
+input, a, select {
+    outline: none;
+}
+html, body, div, span, p, pre, a, img, b, u, i, s, dl, dt, dd, ol, ul, li, input, label, select, form, h2 {
+    padding: 0px;
+    margin: 0px;
+}
+img {
+    border: 0px;
+}
+body {
+    font: 12px/150% Arial, Tahoma,"宋体";
+    color: #606060;
+}
+.login_content {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    .header {
+    width: 100%;
+    height: 88px;
+    padding-top: 8px;
+         .header_logo {
+                width: 210px;
+                height: 80px;
+                float: left;
+                padding-left: 10px;
+         }
+         .header_adv {
+            width: 780px;
+            height: 80px;
+            float: right;
+        }
+        .header_title {
+            float: left;
+            margin: 20px;
+            font-size: 20px;
+            line-height: 36px;
+            color: #333333;
+            font-family: "Microsoft YaHei" ! important;
+        }
+        .header_tip {
+            float: right;
+            margin: 20px;
+            font-size: 16px;
+            line-height: 36px;
+             span {
+                    color: #999999;
+                }
+             a {
+                    cursor: pointer;
+                    color: #333333;
+                }
+        }
+        .header_line {
+            width: 100%;
+            height: 3px;
+            float: left;
+            background: url(https://passport.womai.com/resource/images/login/login.png) 0px 0px repeat-x;
+            margin-top: 5px;
+            display: inline;
+            overflow: hidden;
+        }
+        
+    }
+    .main {
+    width: 100%;
+    height: 500px;
+    padding: 20px 0px 10px 0px;
+    position: relative;
+        .main_bg {
+            position: absolute;
+            top: 20px;
+            left: 0px;
+            z-index: 1;
+        }
+        .loginmain_cont {
+            top: 50px;
+            right: 34px;
+        }
+        .main_content {
+            position: absolute;
+            z-index: 10;
+        }
+    }
+}
+#footer {
+    padding-top: 20px;
+    background: #efefef;
+     li {
+            line-height: 26px;
+        }
+     .w {
+            width: 1000px;
+            margin: 0 auto;
+            .beian {
+                display: inline-block;
+                width: 200px;
+                 img {
+                        float: left;
+                    }
+                  p {
+                        margin: -4px 0px 0px 5px;
+                        color: #606060;
+                    }
+            }
+             span {
+                display: inline-block;
+                margin-top: -4px;
+            }
+        }
+       .s4 {
+            height: 28px;
+            background: #8cb91e;
+        }
+}
+.ac {
+    text-align: center;
+}
+
+ol, ul li {
+    list-style: none outside none;
+}
+.main .registmain_cont {
+    top: 35px;
+    right: 10px;
+    .mc_outside {
+        width: 335px;
+        .mc_inside {
+            width: 280px;
+            padding: 10px 10px;
+            border: #fff 1px solid;
+            margin: 3px auto;
+            height: 445px;
+            background-color: #fff;
+            .mci_content {
+                padding-bottom: 0px;
+                padding-top: 20px;
+            }
+        }
+    }
+}
+.mci_content .mcicont_input {
+    height: 54px;
+    position: relative;
+    input.long_input {
+        width: 252px;
+    }
+    input.cont_input {
+        height: 23px;
+        padding: 5px 13px;
+        border: #ccc 1px solid;
+        font-size: 14px;
+    }
+    .input_error {
+        background: #fee6e7;
+        border: 1px #faa2a6 solid;
+        height: 18px;
+        color: #ff8080;
+        font-family: "宋体";
+        position: absolute;
+        top: -19px;
+        left: 0px;
+        display: none;
+        z-index: 98;
+        padding: 0px 20px 0px 16px;
+    }
+    .prompt_login {
+        color: #aaaaaa;
+        font-size: 14px;
+        cursor: text;
+        left: 14px;
+        position: absolute;
+        top: 9px;
+        display: none;
+    }
+    input.short_input {
+    width: 127px;
+    float: left;
+    }
+    .height24 {
+        line-height: 24px !important;
+    }
+    .six-s {
+        width: 100px;
+        height: 34px;
+        background: #43a41b;
+        border: 0;
+        font-size: 12px;
+        font-family: '微软雅黑';
+        color: #fff;
+        margin-left: 25px;
+        cursor: pointer;
+        float: left;
+        text-align: center;
+        line-height: 28px;
+    }
+    .hide {
+        display: none;
+    }
+}
+.parentCls {
+    z-index: 99;
+}
+.hide {
+    display: none;
+}
+.mci_content .mcicont_line {
+    line-height: 22px;
+    margin-top: 2px;
+    position: relative;
+    .mciline_left {
+        float: left;
+        color: #333333;
+        position: relative;
+        display: none;
+        input {
+            width: 15px;
+            height: 15px;
+            position: absolute;
+            top: 3px;
+            left: 0px;
+            display:block;
+        }
+        label {
+            padding-left: 20px;
+        }
+         a {
+            color: #419bf9;
+            font-size: 12px;
+            cursor: pointer;
+        }
+    }
+    .accepttip {
+        position: absolute;
+        top: -40px;
+        left: 40px;
+        width: 200px;
+        height: 40px;
+        line-height: 40px;
+        color: #fff;
+        background-color: #000;
+        filter: Alpha(Opacity=60);
+        opacity: 0.6;
+        border-radius: 2px;
+        display: none;
+         i {
+            float: left;
+            width: 15px;
+            height: 15px;
+            background: url(https://passport.womai.com/resource/images/i_icon.png) no-repeat;
+            margin: 12px 10px 0 29px;
+        }
+    }
+}
+.mci_content .spe_mcicbtn {
+    position: relative;
+}
+.mci_content .mcicont_btn {
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    input.showinfo {
+        display: none;
+        background-color: #aaaaaa;
+    }
+    .input_button_submit {
+        width: 277px;
+        height: 36px;
+        border: 0;
+        color: #fff;
+        text-align: center;
+        line-height: 36px;
+        cursor: pointer;
+        background-color: #43a41b;
+        font-size: 18px;
+    }
+    .mcibtn_spright {
+        height: 16px;
+        line-height: 16px;
+        padding-top: 14px;
+        float: left;
+        color: #43a41b;
+        cursor: pointer;
+        font-size: 14px;
+    }
+    .ma_input {
+        display: none;
+        width: 150px;
+        height: 22px;
+        background-color: #e6e6e6;
+        border: #cdcdcd 1px solid;
+        padding: 2px;
+        position: absolute;
+        top: 84px;
+        _top: 45px;
+        left: 0px;
+        .input_new {
+            width: 140px;
+            height: 16px;
+            line-height: 16px;
+            padding: 3px 5px;
+            background: none;
+            background-color: #fff;
+            border: 0px;
+            font-size: 12px;
+        }
+        label {
+            font-size: 12px;
+            top: 3px;
+        }
+    }
+     i {
+        display: none;
+    }
+}
+

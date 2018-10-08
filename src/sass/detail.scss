@@ -1,0 +1,576 @@
+@charset "utf-8";
+@import "header";
+@import "main_nav_wrap";
+@import "footer";
+body {
+    color: #606060;
+    font: 12px/150% Arial, Tahoma,"宋体";
+}
+.add_t_wrap{display:none;}
+.crumbs {
+    height: 34px;
+    line-height: 34px;
+     a {
+        display: inline-block;
+        padding: 0 5px;
+    }
+}
+.w {
+    width: 1210px;
+    margin: 0 auto;
+}
+.main_nav_wrap .main_nav .all_kinds .cont {display:none;}
+.wrap {
+    color: #666;
+}
+.w {
+    width: 1210px;
+    margin: 0 auto;
+}
+.details-left {
+    width: 970px;
+    .img-magnifier {
+        width: 400px;
+        /* height: 590px; */
+       .detail_preview {
+            width: 402px;
+             #preview {
+                height: 400px;
+                width: 400px;
+                border: 1px solid #dcdddd;
+                overflow: hidden;
+                .jqzoom {
+                    float: left;
+                    border: none;
+                    position: relative;
+                    padding: 0px;
+                    cursor: move;
+                    margin: 0px;
+                    display: block;
+                     img {
+                        width: 400px;
+                        height: 400px;
+                    }
+                }
+            }
+            .spec-scroll {
+                clear: both;
+                width: 402px;
+                margin-top: 5px;
+                overflow: hidden;
+                .items {
+                    width: 400px;
+                    max-height: 160px;
+                    overflow: hidden;
+                     ul {
+                        min-height: 80px;
+                        width: 425px;
+                         li {
+                            float: left;
+                            width: 60px;
+                            height: 60px;
+                            margin: 6px 25px 2px 0;
+                             img {
+                                width: 58px;
+                                height: 58px;
+                                border: 1px solid #ededed;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            }
+            .share {
+                position: relative;
+                margin-top: 10px;
+                 li {
+                    position: relative;
+                    float: left;
+                    padding-right: 10px;
+                    vertical-align: middle;
+                    cursor: pointer;
+                    span {
+                        position: relative;
+                        display: inline-block;
+                        padding-left: 16px;
+                    }
+                    .keep {
+                        background-position: -76px -38px;
+                    }
+                }
+                 i {
+                    position: absolute;
+                    left: 0;
+                    width: 13px;
+                    top: 3px;
+                    height: 12px;
+                    background: url(http://static.womai.com/zhongliang/city/green2016/images/details.png) no-repeat;
+                    overflow: hidden;
+                    margin-right: 5px;
+                }
+                .fx {
+                        background-position: -92px -58px;
+                    }
+            }
+        }
+    }
+}
+.fl {
+    float: left;
+}
+.details-left .p-infor {
+    width: 540px;
+    .p-zy {
+    float: left;
+    padding: 0px 3px;
+    margin: 2px 4px 2px 0px;
+    color: #fff;
+    background-color: #c20312;
+    border-radius: 2px;
+    }
+    .p-title {
+    width: 506px;
+    height: auto;
+    margin: 5px 0;
+    font: bold 16px/22px "微软雅黑";
+    color: #666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    }
+     .p-infor {
+    height: 40px;
+    margin-bottom: 10px;
+    line-height: 20px;
+    overflow: hidden;
+    font-family: "微软雅黑";
+     span {
+        color: #c40000;
+     }
+    }
+}
+.details-left .p-infor .price-wrap {
+    height: 36px;
+    padding-left: 16px;
+    padding-top: 20px;
+    background: #f5f5f5;
+    overflow: hidden;
+     .price-infor {
+        height: 26px;
+        overflow: hidden;
+         .time {
+            padding-right: 17px;
+            font-family: "微软雅黑";
+        }
+         .price {
+            display: inline-block;
+            height: 24px;
+            font-weight: bold;
+            line-height: 24px;
+            font-size: 26px;
+            font-family: "微软雅黑";
+            color: #c40000;
+            em {
+                font-style: normal;
+                font-size: 15px;
+                font-family: "微软雅黑";
+            }
+        }
+         .group {
+            display: inline-block;
+            height: 18px;
+            margin: 6px 10px 0px 10px;
+            padding: 0 5px;
+            font-family: "微软雅黑";
+            line-height: 18px;
+            background: #c40000;
+            color: #fff;
+        }
+
+    }
+}
+.details-left .p-infor .promotions {
+    position: relative;
+    padding: 13px 0 10px 16px;
+    background: #f5f5f5;
+    display: none;
+     .pro_m_line {
+        margin-top: 6px;
+        width: 500px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+         dt {
+            height: 20px;
+            line-height: 21px;
+            padding: 0 5px;
+            text-align: center;
+            color: #fff;
+            background: #c40000 none repeat scroll 0 0;
+        }
+        dd.intro {
+            margin: 0 15px 0 5px;
+             .title {
+                    float: left;
+                }
+               span {
+                    line-height: 20px;
+                     span {
+                        height: 18px;
+                    }
+                }
+                span.borderspan {
+                    float: left;
+                    height: 19px;
+                    margin-left: 5px;
+                    line-height: 19px;
+                    border: 1px solid #ea6515;
+                }
+        }
+        dd.man_detail {
+            position: relative;
+            margin-top: 2px;
+            margin-top: 1px\9;
+            padding-left: 10px;
+            .png {
+                display: block;
+                position: absolute;
+                top: 4px;
+                left: 0;
+                width: 11px;
+                height: 11px;
+                background: url(http://static.womai.com/zhongliang/city/green2016/images/detail/newDetail_btn.png) no-repeat -122px 0;
+            }
+             a {
+                color: #c40000;
+                cursor: pointer;
+                margin-left: 6px;
+            }
+        }
+        dd.man_detail_gicon {
+            position: relative;
+            padding-left: 10px;
+             .manpng {
+                display: block;
+                position: absolute;
+                top: 4px;
+                left: 0;
+                width: 11px;
+                height: 11px;
+                background: url(http://static.womai.com/zhongliang/city/green2016/images/detail/newDetail_btn.png) no-repeat -150px 0;
+            }
+             a {
+                color: #c40000;
+                cursor: pointer;
+                margin-left: 6px;
+            }
+        }
+         dd {
+            margin-top: 3px;
+        }
+    }
+}
+.pro_m_line dt, .pro_m_line dd {
+    float: left;
+}
+.pro_m_line dd a {
+    text-decoration: underline;
+    color: #c40000;
+}
+.details-left .p-infor .promotions {
+    position: relative;
+    padding: 13px 0 10px 16px;
+    background: #f5f5f5;
+    display: block;
+     .pro_m_line {
+        margin-top: 6px;
+        width: 500px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+         dt {
+            height: 20px;
+            line-height: 21px;
+            padding: 0 5px;
+            text-align: center;
+            color: #fff;
+            background: #c40000 none repeat scroll 0 0;
+        }
+            dd.intro {
+                margin: 0 15px 0 5px;
+                 .title {
+                        float: left;
+                    }
+                span {
+                    line-height: 20px;
+                     span {
+                        height: 18px;
+                    }
+                }
+                 span.borderspan {
+                    float: left;
+                    height: 19px;
+                    margin-left: 5px;
+                    line-height: 19px;
+                    border: 1px solid #ea6515;
+                }
+            }
+            dd.man_detail {
+                position: relative;
+                margin-top: 2px;
+                margin-top: 1px\9;
+                padding-left: 10px;
+            }
+            dd.man_detail_gicon {
+                position: relative;
+                padding-left: 10px;
+            }
+             dd {
+                margin-top: 3px;
+            }
+    }
+}
+.details-left .p-infor .address {
+    line-height: 34px;
+    padding-left: 16px;
+     dt {
+        width: 42px;
+        float: left;
+        height: 34px;
+    }
+    dd {
+        float: left;
+        height: 34px;
+    }
+    .addr_select {
+        position: relative;
+        z-index: 99;
+         .text {
+            position: relative;
+            z-index: 101;
+            width: auto;
+            _float: left;
+            height: 24px;
+            margin-top: 6px;
+            margin-right: 10px;
+            padding: 0 17px 0 5px;
+            line-height: 24px;
+            background: #fff;
+            border: 1px solid #cacaca;
+        }
+         .region-text {
+            _float: left;
+            height: 22px;
+            overflow: hidden;
+        }
+         s {
+            position: absolute;
+            top: 10px;
+            right: 3px;
+            display: block;
+            width: 8px;
+            height: 5px;
+            background: url(http://static.womai.com/zhongliang/city/green2016/images/detail/newDetail_btn.png) no-repeat -70px -307px;
+        }
+    }
+}
+ .choose-box, .details-left .p-infor .merge {
+    padding-left: 16px;
+    margin-top: 5px;
+}
+.pro_m_line#height_over {
+    height: auto;
+    overflow: hidden;
+    padding: 0;
+    padding: 5px 0px 0px;
+}
+.pb10 {
+    padding-bottom: 5px;
+    padding-top: 8px;
+}
+.pro_m_line {
+    width: 500px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    #padding_t {
+        padding-top: 13px;
+        width: 64px;
+        overflow: hidden;
+    }
+    .pro_m_tit {
+        width: 70px;
+        float: left;
+        color: #808080;
+    }
+    .one_And_More {
+        height: auto;
+        overflow: hidden;
+        float: left;
+        width: 435px;
+         .matching_Products {
+            float: left;
+            width: 100px;
+            margin: 8px 8px 0px 0px;
+            position: relative;
+            white-space: nowrap;
+            a.m_Pro_border {
+                width: 100px;
+                height: 28px;
+                margin-right: 10px;
+                padding: 0;
+                text-align: center;
+                line-height: 28px;
+                border: 1px solid #dcdcdc;
+                color: #000;
+                cursor: pointer;
+                display:block;
+            }
+        }
+    }
+}
+em {
+    font-style: normal;
+}
+.pro_m_line .one_And_More .matching_Products a.match_Pro_Active {
+    height: 26px;
+    padding: 0 3px 0 0;
+    text-align: center;
+    line-height: 24px;
+    border: none;
+    color: #000;
+    border: 2px solid #c40000;
+    display:block;
+}
+.pro_m_line .one_And_More .matching_Products b {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    bottom: 2px;
+    right: 2px;
+    background: url(http://static.womai.com/zhongliang/city/green2016/images/detail/biankuang.jpg) no-repeat -50px -15px;
+}
+.details-left .p-infor .merge {
+    border: none;
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 16px;
+     .choose {
+            overflow: hidden;
+            dt{
+                float: left;
+                margin: 8px 0;
+                line-height: 30px;
+            }
+             dd {
+                float: left;
+                margin: 8px 0;
+                line-height: 30px;
+                .choose-amount {
+                    display: inline-block;
+                    width: 73px;
+                    height: 28px;
+                    margin-right: 8px;
+                    border: 1px solid #dcdcdc;
+                    vertical-align: middle;
+                    overflow: hidden;
+                     span {
+                        width: 13px;
+                        height: 28px;
+                        line-height: 28px;
+                        text-align: center;
+                        cursor: pointer;
+                        overflow: hidden;
+                    }
+                     .proinput {
+                        width: 45px;
+                        height: 28px;
+                        padding: 0;
+                        line-height: 28px;
+                        text-align: center;
+                        border: none;
+                        border-left: 1px solid #dcdcdc;
+                        border-right: 1px solid #dcdcdc;
+                    }
+                     span {
+                        width: 13px;
+                        height: 28px;
+                        line-height: 28px;
+                        text-align: center;
+                        cursor: pointer;
+                        overflow: hidden;
+                    }
+                }
+            }
+        }
+         .btn-box {
+            position: relative;
+            padding-top: 15px;
+            margin-left: 16px;
+             .b-red {
+                background: #c40000;
+                margin-left: -16px;
+                 b {
+                    background-position: 0 0;
+                }
+            }
+             .buyBtn {
+                width: 194px;
+                height: 24px;
+                color: #fff;
+                font: 16px/24px "微软雅黑";
+                text-align: center;
+                padding-top: 11px;
+                padding-bottom: 11px;
+                 b {
+                    display: inline-block;
+                    width: 20px;
+                    height: 15px;
+                    margin-right: 6px;
+                    background: url(http://static.womai.com/zhongliang/city/green2016/images/details.png) no-repeat;
+                    vertical-align: middle;
+                }
+            }
+            li {
+                position: relative;
+                float: left;
+                margin-right: 20px;
+                cursor: pointer;
+            }
+             .coupon-phone {
+                text-align: center;
+                font: 16px/24px "微软雅黑";
+                width: 170px;
+                height: 24px;
+                padding: 10px 8px;
+                border: 1px solid #c40000;
+                overflow: hidden;
+                 b {
+                    background: url(http://static.womai.com/zhongliang/city/green2016/images/detail/mqr.png);
+                    display: inline-block;
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 6px;
+                    vertical-align: middle;
+                }
+            }
+        }
+}
+.details-left .p-infor .btn-box {
+    position: relative;
+    padding-top: 15px;
+    margin-left: 16px;
+     dl {
+        margin-top: 20px;
+        overflow: hidden;
+         dt {
+            width: 42px;
+            float: left;
+        }
+         dd {
+            float: left;
+             p {
+                line-height: 20px;
+            }
+        }
+    }
+}

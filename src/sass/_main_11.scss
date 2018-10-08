@@ -1,0 +1,137 @@
+@charset "utf-8";
+.floor4 .floor-l{
+     h3 {
+    color: #DDC18F;
+    }
+    .con {
+    background: #f6d7a1;
+       span {
+            background-position: 0 -196px;
+        }
+    }
+}
+ .floor .floor-even {
+    width: 726px;
+    overflow: hidden;
+     .floor-l {
+    width: 242px;
+        }
+    .floor-r {
+    width: 484px;
+    }
+}
+.fl {
+    float: left;
+}
+.floor .floor-r .tit {
+    height: 36px;
+    margin: 0 0 2px 30px;
+    font-size: 16px;
+    line-height: 36px;
+    color: #434343;
+}
+.floor .floor-r .con ul {
+    overflow: auto;
+}
+.floor .floor-odd {
+    width: 484px;
+    margin-top: 38px;
+    overflow: hidden;
+    .floor-r {
+    width: 242px;
+}
+}
+.floor .floor-r .con li {
+    width: 241px;
+    height: 250px;
+    border-bottom: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+    overflow: hidden;
+}
+.floor .floor-odd .floor-r {
+    width: 242px;
+}
+.floor .floor-even .floor-r .con ul li {
+    width: 241px;
+}
+.floor .floor-r .con li {
+    width: 241px;
+    height: 250px;
+    border-bottom: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+    overflow: hidden;
+}
+.floor .floor-even .floor-r .con ul li.p-three {
+    position: relative;
+    width: 482px;
+    height: 250px;
+    border-bottom: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+    overflow: hidden;
+}
+.floor .floor-even .floor-r .con ul li.p-three .adv {
+    left: 0;
+}
+.floor .floor-r .adv {
+    position: absolute;
+    top: 0;
+    left: 242px;
+    width: 482px;
+    height: 250px;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    overflow: hidden;
+}
+.floor .floor-even .floor-r .con ul li.p-three {
+    position: relative;
+}
+.floor .floor-even .floor-r .con ul li.p-three, .floor .floor-even .floor-r .con ul li.p-three img {
+    width: 482px;
+    height: 250px;
+}
+.floor .floor-r .con li {
+    width: 241px;
+    height: 250px;
+    border-bottom: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+    overflow: hidden;
+}
+.floor .floor-r li {
+    float: left;
+}
+.floor .floor-even .floor-r .con {
+    width: 484px;
+    overflow: hidden;
+}
+.floor .floor-odd .floor-r {
+    width: 242px;
+}
+.floor-odd .floor-r .con {
+    width: 242px;
+}
+.floor-odd6 .floor-r .con {
+    border-top: 1px solid #9fe7d7;
+}
+.floor .floor-r .con li {
+    width: 241px;
+    height: 250px;
+    border-bottom: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+    overflow: hidden;
+    float:left;
+}
+.floor4 .floor-r .tit .cur {
+    border-bottom: 2px solid #f6d7a1;
+}
+.floor4 .floor-r .con {
+    border-top: 1px solid #f6d7a1;
+}
+.floor4 .floor-l .con {
+    background: #f6d7a1;
+}
+.floor-odd6 .floor-l .con {
+    background: #9fe7d7;
+}
+.floor-odd6 .floor-r .con {
+    border-top: 1px solid #9fe7d7;
+}
